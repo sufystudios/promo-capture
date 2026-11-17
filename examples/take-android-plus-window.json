@@ -1,0 +1,22 @@
+{
+  "out": "takes/orbit",
+  "android": {"serial": null},
+  "record": {
+    "android": {"seconds": 20, "bitrate": 6000000},
+    "mac_window": {"title": "Drone Synth", "seconds": 18, "binary": "macwinrec/macwinrec"}
+  },
+  "steps": [
+    {"lock_landscape": true},
+    {"demo_mode": true, "clock": "0900"},
+    {"tap_label": "Presets"},
+    {"scroll_to": "ORBIT", "region": [380, 330, 700, 700]},
+    {"start": true},
+    {"wait": 3},
+    {"tap_label": "ORBIT", "mark": "load"},
+    {"wait": 2.5},
+    {"hold": [780, 640, 10000], "mark": "key"},
+    {"wait": 1},
+    {"stop": true},
+    {"demo_mode": false}
+  ]
+}

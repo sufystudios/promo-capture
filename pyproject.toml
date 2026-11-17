@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promocap"
+version = "0.1.0"
+description = "Script app footage for promo videos: Android over adb, the iOS Simulator, and macOS windows with their own audio."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["adb", "android", "ios simulator", "screen recording", "screencapturekit", "promo", "app store", "ai-agents"]
+
+[project.scripts]
+promocap = "promocap.cli:main"
+
+[tool.setuptools]
+packages = ["promocap"]

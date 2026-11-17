@@ -1,0 +1,10 @@
+{
+  "out": "takes/ios-intro",
+  "ios_sim": {"udid": "booted"},
+  "record": {"ios_sim": {}},
+  "steps": [
+    {"start": true, "mark": "start"},
+    {"wait": 8},
+    {"stop": true}
+  ]
+}
